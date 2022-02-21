@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(226, 210, 255);
+  color: rgb(211, 211, 231);
+  margin: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(105, 18, 139);
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+main {
+  width: 800px;
+  margin: 40px auto 72px auto;
+  background-color: rgb(163, 103, 179);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgb(0, 0, 0.3);
+}
+
+a {
+  padding: 4px 6px;
+  background-color: rgb(224, 216, 144);
+  color: rgb(46, 11, 56);
+  border-radius: 4px;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(192, 176, 31);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 12px 0;
+  padding-left: 13px;
+  border-left: 5px solid transparent;
+}
+
+.highlight-list {
+  color: rgb(206, 201, 163);
+  border-left: 5px solid rgb(218, 202, 82);
+}
+
+.highlight-word {
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: rgb(163, 54, 236);
+  margin: 25px;
+  margin-bottom: 150px;
+}
+footer a {
+  padding: 12px 28px;
+  border-bottom: 20px;
+  background-color: rgb(251, 232, 58);
+  color: rgb(185, 40, 230);
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0;
+}
